@@ -16,6 +16,7 @@ def part1():
                 break
 
     print(total)
+    f.close()
 
 def part2():
     f = open('day3.txt')
@@ -47,6 +48,7 @@ def part2():
     
     print(count)
     print(total)
+    f.close()
 
 
 part1()

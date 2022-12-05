@@ -18,3 +18,5 @@ print(elves[-1])
 
 # Combined calories of the top 3 elves
 print(sum(elves[-3:]))
+
+f.close()

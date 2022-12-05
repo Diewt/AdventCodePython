@@ -23,6 +23,7 @@ def totalPoints1():
             points += 6
 
     print(points)
+    f.close()
 
 # Total Points for second part
 def totalPoints2():
@@ -62,6 +63,7 @@ def totalPoints2():
 
         points +=  Move[match[1]]
     print(points)
+    f.close()
 
 totalPoints1()
 totalPoints2()
